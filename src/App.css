@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-bkg: #1e1e1e;
+	--clr-font-01: #dfeeedf2;
+	--clr-font-02: #b8dad8e5;
+	--clr-font-03: #8ac2bed8;
+	--clr-font-04: #50a49fcb;
+	--clr-font-05: #067e76be;
+	--clr-font-06: #045953cb;
+	--clr-font-07: #033b38d8;
+	--clr-font-08: #022421e5;
+	--clr-font-09: #011a18eb;
+	--clr-font-10: #000807f8;
+}
+
+/* 16px * x = 10 => x = 10/100 *100 = 62.5% */
+
+html {
+	font-size: 62.5%;
+	background-color: var(--clr-bkg);
+    scroll-behavior: smooth;
+	::-webkit-scrollbar {
+		width: 6px;
+	}
+	::-webkit-scrollbar-track {
+		background-color: var(--clr-font-05);
+	}
+	::-webkit-scrollbar-thumb {
+		background-color: var(--clr-font-02);
+	}
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
