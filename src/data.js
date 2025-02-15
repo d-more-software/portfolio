@@ -1,24 +1,17 @@
-import insects from "./images/insect.webp";
-import lavender from "./images/lavender.webp";
-import sky from "./images/sky.webp";
+import space from "./images/SpaceProject.webp";
+import stocks from "./images/StocksProject.webp";
 
-export  const projects = [
+export const projects = [
 	{
-		title: "insects project",
-		imageSRC: insects,
-		url: "https//:etc1.etc1",
-		desc: "Project made with react 18, based on this API. ",
+		title: "Space News project",
+		imageSRC: space,
+		url: "https://space-dream.netlify.app/apod",
+		desc: "Project made with react 18, based on NASA and Datastro APIs . ",
 	},
 	{
-		title: "lavender project",
-		imageSRC: lavender,
-		url: "https//:etc2.etc2",
-		desc: "Project made with react 18, based on this API.",
+		title: "Stock Dashboard project",
+		imageSRC: stocks,
+		url: "https://david-stocks-market.netlify.app/stocks",
+		desc: "Project made with React 18 and Redux Toolkit , based on 12Data API .",
 	},
-	{
-		title: "sky project",
-		imageSRC: sky,
-		url: "https//:etc3.etc3",
-		desc: "Project made with react 18, based on this API. ",
-	}
 ];

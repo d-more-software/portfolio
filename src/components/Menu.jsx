@@ -23,21 +23,18 @@ export default function Menu() {
 	};
 
 	useEffect(() => {
-
-	const initView = () => {
-		const width = window.innerWidth;
-		if (width >= 1000) {
-			setDesktopMode(true);
-		} else {
-			setDesktopMode(false);
-		}
-	};
+		const initView = () => {
+			const width = window.innerWidth;
+			if (width >= 1000) {
+				setDesktopMode(true);
+			} else {
+				setDesktopMode(false);
+			}
+		};
 		window.addEventListener("resize", initView);
 		initView();
 
-		return () => 
-			window.removeEventListener("resize", initView);
-		;
+		return () => window.removeEventListener("resize", initView);
 	}, []);
 
 	return (
@@ -108,24 +105,24 @@ export default function Menu() {
 								<MdOutlineLocationOn />
 								Paris, France
 							</a>
-							<a href="mailto:john-doe@test.com">
+							<a href="mailto:md.moredavid@protonmail.com">
 								<FiMail />
-								john-doe@test.com
+								md.moredavid@protonmail.com
 							</a>
-							<a href="tel:0033645789652">
+							{/* <a href="tel:0033645789652">
 								<BsTelephone />
 								+33 6 45 78 96 52
-							</a>
+							</a> */}
 
 							<div className="social-networks">
 								<a
-									href="https//:www.linkin.com/in/Jdoe"
+									href="https://www.linkedin.com/in/david-more-software/"
 									target="_blank"
 								>
 									<BsLinkedin />
 								</a>
 								<a
-									href="https//:github.com/johnD"
+									href="https://github.com/d-more-software"
 									target="_blank"
 								>
 									<FaGithub />

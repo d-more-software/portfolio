@@ -28,7 +28,7 @@ export const Projects = () => {
 					<button className="btn prev-btn" onClick={decreaseIndex}>
 						&#x3c;&#x3c;
 					</button>
-					<a href={projects[selectedIndex].url}>
+					<a href={projects[selectedIndex].url} target="_blank">
 						<img
 							src={projects[selectedIndex].imageSRC}
 							alt=""
