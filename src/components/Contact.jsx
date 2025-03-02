@@ -20,7 +20,8 @@ export default function Contact() {
 					<MdOutlineLocationOn />
 					Paris, France
 				</a>
-				<a href="mailto:md.moredavid@protonmail.com">
+				<a 
+                href="mailto:md.moredavid@protonmail.com">
 					<FiMail />
 					md.moredavid@protonmail.com
 				</a>
