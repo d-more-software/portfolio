@@ -18,10 +18,9 @@ export default function Contact() {
 			<div className="contact-container">
 				<a href="#">
 					<MdOutlineLocationOn />
-					Turquie
+					Türkiye
 				</a>
-				<a 
-                href="mailto:dmore.software@gmail.com">
+				<a href="mailto:dmore.software@gmail.com">
 					<FiMail />
 					dmore.software@gmail.com
 				</a>

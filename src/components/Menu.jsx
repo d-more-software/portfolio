@@ -103,11 +103,11 @@ export default function Menu() {
 						<div className="contact-container">
 							<a href="#">
 								<MdOutlineLocationOn />
-								Paris, France
+								Türkiye
 							</a>
-							<a href="mailto:md.moredavid@protonmail.com">
+							<a href="mailto:dmore.software@gmail.com">
 								<FiMail />
-								md.moredavid@protonmail.com
+								dmore.software@gmail.com
 							</a>
 							{/* <a href="tel:0033645789652">
 								<BsTelephone />
@@ -116,7 +116,7 @@ export default function Menu() {
 
 							<div className="social-networks">
 								<a
-									href="https://www.linkedin.com/in/david-more-software/"
+									href="https://www.linkedin.com/in/david-more-soft/"
 									target="_blank"
 								>
 									<BsLinkedin />
