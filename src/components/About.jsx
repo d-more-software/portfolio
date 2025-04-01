@@ -9,8 +9,11 @@ export default function About() {
 			</div>
 			<div className="about-container">
 				<p>
-					I am a front-end developer who creates user interfaces that
-					are intuitive, nice, and responsive.
+					I’m a passionate front-end developer dedicated to crafting
+					intuitive, visually appealing, and highly responsive user
+					interfaces. With a strong focus on delivering seamless user
+					experiences, I leverage modern technologies like React,
+					JavaScript, and CSS to build engaging web applications.
 				</p>
 			</div>
 		</Wrapper>
